@@ -5,10 +5,10 @@ const HornedBeast = (props) => {
     console.log(imageURL)
 
 return (
-    <div>
-        <h2>{title}</h2>
-        <img src={imageURL} alt={title} title={title} />
-        <p>{description}</p>
+    <div className="horne-beast">
+        <h2 className="title">{title}</h2>
+        <img className="image" src={imageURL} alt={title} title={title} />
+        <p className="description">{description}</p>
     </div>
 );
 };

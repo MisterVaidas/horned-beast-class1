@@ -4,6 +4,8 @@ import Minotaur from '../images/Minotaur.jpg';
 import Babhomet from '../images/Babhomet.jpg';
 import Unicorn from '../images/Unicorn.png';
 import Cernunnos from '../images/Cernunnos.jpg';
+import Ibex from '../images/Ibex.jpg';
+import Markhor from '../images/Markhor.jpg';
 import '../css/styles.css';
 
 
@@ -30,6 +32,16 @@ const Main = () => {
           title='Cernunnos'
           imageURL={Cernunnos}
           description='Cernunnos is a horned god of the Celts, often associated with nature, fertility, and the wild. He is depicted as a bearded man with antlers, sitting cross-legged and holding a torc and a bag of coins. He is also sometimes seen with a ram-horned serpent or a stag.'
+        />
+        <HornedBeast 
+          title='Ibex'
+          imageURL={Ibex}
+          description='Ibex are mountain goats with long, curved horns. They are found in Europe, Asia, and Africa. Ibexes are sure-footed climbers and can scale steep cliffs with ease. They are also very agile and can jump long distances. '
+        />
+        <HornedBeast 
+          title='Markhor'
+          imageURL={Markhor}
+          description='Markhor (Capra falconeri) is a large wild goat species native to Central Asia. It is the national animal of Pakistan. Markhors are known for their long, spiraled horns, which can grow up to 6 feet long in males. The horns are used for defense and for fighting over mates. '
         />
       </main>
     );
