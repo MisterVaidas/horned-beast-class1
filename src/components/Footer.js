@@ -1,10 +1,11 @@
 import React from 'react';
+import '../css/styles.css';
 
 const Footer = () => {
   return (
-    <footer>
-        <div>
-            <p>Autor: Vaidas Simkus</p>
+    <footer className='footer'>
+        <div className='footer-content'>
+            <p className='footer-text'>Autor: Vaidas Simkus</p>
         </div>
     </footer>
   );

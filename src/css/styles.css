@@ -38,3 +38,33 @@
     border: 5px solid rgb(221, 227, 230);
     border-radius: 15px;
   }
+
+  .footer {
+    margin: auto;
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-text {
+    color: azure;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .footer-content {
+    padding: 20px;
+  }
+
+  .header {
+    margin: auto;
+    background-color: darkkhaki;
+    height: 100px;
+  }
+
+  .header-title {
+    padding: 30px;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
