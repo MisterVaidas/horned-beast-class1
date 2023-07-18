@@ -14,11 +14,12 @@ const HornedBeast = (props) => {
     <div className="horned-beast">
       <h2 className="title">{title}</h2>
       <img className="image" src={imageURL} alt={title} title={title} />
-      <p className="description">{description}</p>
       <button className="favorite-button" onClick={handleFavoriteClick}>
         <FontAwesomeIcon icon={faHeart} color="red" />
         {favorites}
       </button>
+      <p className="description">{description}</p>
+     
     </div>
   );
 };
