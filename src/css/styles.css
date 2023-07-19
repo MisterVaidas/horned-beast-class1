@@ -32,11 +32,14 @@
     width: 280px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(57, 96, 97);
+    font-size: 16px;
   }
 
   .image {
     border: 5px solid rgb(221, 227, 230);
     border-radius: 15px;
+    width: 100%;
+    height: auto;
   }
 
   .footer {
@@ -67,4 +70,30 @@
     padding: 30px;
     color: brown;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+ 
+
+  .favorite-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .row {
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .col-md-6 {
+    padding: 20px;
+    margin-top: 10px;
+    display: inline;
+  }
+
+  .horned-beast {
+    margin: 20px;
+    height: 400px;
   }
