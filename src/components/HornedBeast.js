@@ -6,12 +6,26 @@ const HornedBeast = (props) => {
   const { title, imageURL, description } = props;
   const [favorites, setFavorites] = useState(0);
 
+  const[isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   const handleFavoriteClick = () => {
     setFavorites(favorites + 1);
   };
 
   return (
-    <div className="horned-beast">
+    <div 
+      className={`horned-beast ${isHovered ? 'hovered' : ''}`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      >
       <h2 className="title">{title}</h2>
       <img className="image" src={imageURL} alt={title} title={title} />
       <button className="favorite-button" onClick={handleFavoriteClick}>
