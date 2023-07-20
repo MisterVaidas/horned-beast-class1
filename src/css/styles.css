@@ -80,26 +80,12 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
-    padding-top: 10px;
   }
 
-  .row {
-    padding: 40px;
-    margin: 10px;
-  }
 
-  .col-md-6 {
-    padding: 20px;
-    margin-top: 10px;
-    display: inline;
-  }
 
   .horned-beast {
     margin: 20px;
-    height: 400px;
+    height: 500px;
+    padding: 20px;
   }
-
-  .hovered .image {
-    transform: scale(1.1);
-  }
-  
