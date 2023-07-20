@@ -3,73 +3,127 @@
       "id": 1,
       "title": "Minotaur",
       "imageURL": "../images/Minotaur.jpg",
-      "description": "The Minotaur is a popular subject in art and literature. It has been depicted in paintings, sculptures, and works of fiction for centuries. The Minotaur is a symbol of strength, power, and danger."
+      "description": "The Minotaur is a popular subject in art and literature. It has been depicted in paintings, sculptures, and works of fiction for centuries. The Minotaur is a symbol of strength, power, and danger.",
+      "horns": 2
     },
     {
       "id": 2,
       "title": "Baphomet",
       "imageURL": "../images/Babhomet.jpg",
-      "description": "Baphomet is a goat-headed figure that is often associated with Satanism. The name Baphomet first appeared in trial transcripts for the Inquisition of the Knights Templar starting in 1307."
+      "description": "Baphomet is a goat-headed figure that is often associated with Satanism. The name Baphomet first appeared in trial transcripts for the Inquisition of the Knights Templar starting in 1307.",
+      "horns": 3
     },
     {
       "id": 3,
       "title": "Unicorn",
       "imageURL": "../images/Unicorn.png",
-      "description": "A unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead."
+      "description": "A unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.",
+      "horns": 1
     },
     {
       "id": 4,
       "title": "Cernunnos",
       "imageURL": "../images/Cernunnos.jpg",
-      "description": "Cernunnos is a horned god of the Celts, often associated with nature, fertility, and the wild. He is depicted as a bearded man with antlers, sitting cross-legged and holding a torc and a bag of coins."
+      "description": "Cernunnos is a horned god of the Celts, often associated with nature, fertility, and the wild. He is depicted as a bearded man with antlers, sitting cross-legged and holding a torc and a bag of coins.",
+      "horns": 6
     },
     {
       "id": 5,
       "title": "Ibex",
       "imageURL": "../images/Ibex.jpg",
-      "description": "Ibex are mountain goats with long, curved horns. They are found in Europe, Asia, and Africa. Ibexes are sure-footed climbers and can scale steep cliffs with ease. They are also very agile and can jump long distances."
+      "description": "Ibex are mountain goats with long, curved horns. They are found in Europe, Asia, and Africa. Ibexes are sure-footed climbers and can scale steep cliffs with ease. They are also very agile and can jump long distances.",
+      "horns": 2
     },
     {
       "id": 6,
       "title": "Markhor",
       "imageURL": "../images/Markhor.jpg",
-      "description": "Markhor (Capra falconeri) is a large wild goat species native to Central Asia. It is the national animal of Pakistan. Markhors are known for their long, spiraled horns, which can grow up to 6 feet long in males. The horns are used for defense and for fighting over mates."
+      "description": "Markhor (Capra falconeri) is a large wild goat species native to Central Asia. It is the national animal of Pakistan. Markhors are known for their long, spiraled horns, which can grow up to 6 feet long in males. The horns are used for defense and for fighting over mates.",
+      "horns": 2
     },
     {
       "id": 7,
       "title": "Bison",
       "imageURL": "../images/Bison.jpg",
-      "description": "Bison are the largest land mammals in North America and Europe. They are herbivores and their diet consists of grasses, herbs, and leaves."
+      "description": "Bison are the largest land mammals in North America and Europe. They are herbivores and their diet consists of grasses, herbs, and leaves.",
+      "horns": 2
     },
     {
       "id": 8,
       "title": "Blackbuck",
       "imageURL": "../images/Blackbuck.jpg",
-      "description": "The blackbuck (Antilope cervicapra) is a medium-sized antelope native to India and Pakistan. It is the national animal of India. Blackbuck are known for their long, straight horns and their distinctive black and white markings."
+      "description": "The blackbuck (Antilope cervicapra) is a medium-sized antelope native to India and Pakistan. It is the national animal of India. Blackbuck are known for their long, straight horns and their distinctive black and white markings.",
+      "horns": 2
     },
     {
       "id": 9,
       "title": "Eland",
       "imageURL": "../images/Eland.jpg",
-      "description": "Eland are a fascinating animal and are a testament to the power of adaptation. They are able to live in some of the most challenging environments on Earth and have survived for thousands of years."
+      "description": "Eland are a fascinating animal and are a testament to the power of adaptation. They are able to live in some of the most challenging environments on Earth and have survived for thousands of years.",
+      "horns": 2
     },
     {
       "id": 10,
       "title": "Greater Kudu",
       "imageURL": "../images/GreaterKudu.jpg",
-      "description": "The greater kudu (Tragelaphus strepsiceros) is a large antelope found in eastern and southern Africa. It is the second-largest antelope in Africa, after the eland."
+      "description": "The greater kudu (Tragelaphus strepsiceros) is a large antelope found in eastern and southern Africa. It is the second-largest antelope in Africa, after the eland.",
+      "horns": 2
     },
     {
       "id": 11,
       "title": "Impala",
       "imageURL": "../images/Impala.jpg",
-      "description": "The impala (Aepyceros melampus) is a medium-sized antelope found in eastern and southern Africa. It is the most common antelope in Africa."
+      "description": "The impala (Aepyceros melampus) is a medium-sized antelope found in eastern and southern Africa. It is the most common antelope in Africa.",
+      "horns": 2
     },
     {
       "id": 12,
       "title": "Oryx",
       "imageURL": "../images/Oryx.jpg",
-      "description": "The oryx (Oryx gazella) is a large antelope found in Africa and the Middle East. It is known for its long, straight horns, which can grow up to 1.2 meters long in males. Oryxes have a reddish-brown coat with white markings."
+      "description": "The oryx (Oryx gazella) is a large antelope found in Africa and the Middle East. It is known for its long, straight horns, which can grow up to 1.2 meters long in males. Oryxes have a reddish-brown coat with white markings.",
+      "horns": 2
+    },
+    {
+      "id": 13,
+      "title": "Scimitar Horned Oryx",
+      "imageURL": "../images/Scimitar-hornedOryx.jpg",
+      "description": "The scimitar-horned oryx (Oryx dammah) is a large antelope found in North Africa and the Middle East. It is known for its long, curved horns, which can grow up to 1.2 meters long in males. Scimitar-horned oryxes have a reddish-brown coat with white markings.",
+      "horns": 2
+    },
+    {
+      "id": 14,
+      "title": "Stag",
+      "imageURL": "../images/Stag.jpg",
+      "description": "The stag (Cervus elaphus) is a large deer found in Europe, Asia, and North Africa. It is known for its large antlers, which can grow up to 1.5 meters long in males. Stags have a reddish-brown coat with white markings. ",
+      "horns": 2
+    },
+    {
+      "id": 15,
+      "title": "Thompson Gazelle",
+      "imageURL": "../images/ThomsonGazelle.jpg",
+      "description": "The Thomson's gazelle (Eudorcas thomsonii) is a small antelope found in eastern and southern Africa. It is one of the most common antelopes in Africa and is named after Joseph Thomson, a Scottish explorer who first described it in 1885. ",
+      "horns": 2
+    },
+    {
+      "id": 16,
+      "title": "Waterbuck",
+      "imageURL": "../images/Waterbuck.jpg",
+      "description": "The waterbuck (Kobus ellipsiprymnus) is a large antelope found in sub-Saharan Africa. It is the largest member of the Kobus genus.",
+      "horns": 2
+    },
+    {
+      "id": 17,
+      "title": "Narwhal",
+      "imageURL": "../images/Narwhal.jpg",
+      "description": "Narwhals are large, Arctic whales with a single, spiraled tusk that can grow up to 10 feet long. Narwhals are related to dolphins and porpoises.",
+      "horns": 1
+    },
+    {
+      "id": 18,
+      "title": "Rhinoceros",
+      "imageURL": "../images/Rhinoceros.jpg",
+      "description": "Rhinoceroses are large mammals with thick skin and horns on their snouts. There are five species of rhinoceros: the white rhinoceros, the black rhinoceros, the Indian rhinoceros, the Javan rhinoceros, and the Sumatran rhinoceros.",
+      "horns": 1 
     }
   ]
   
