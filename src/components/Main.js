@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import HornedBeast from '../components/HornedBeast';
 import '../css/styles.css';
 
-const Main = ({ data, onBeastUpdate }) => {
+const Main = ({ data, onBeastUpdate, searchQuery }) => {
   const [favorites, setFavorites] = useState([]);
 
   const handleFavoriteToggle = (title) => {
@@ -17,9 +17,15 @@ const Main = ({ data, onBeastUpdate }) => {
     onBeastUpdate(beast);
   };
 
+  const filteredData = data.filter((beast) => {
+    const regularExpression = new RegExp(searchQuery, 'i');
+    return regularExpression.test(beast.title) || regularExpression.test(beast.description);
+  });
+  
+
   return (
     <main className='grid-container'>
-    {data.map((beast) => (
+    {filteredData.map((beast) => (
       <div key={beast.id}>
         <HornedBeast
           title={beast.title}

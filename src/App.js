@@ -8,6 +8,7 @@ import data from './data.json';
 function App() {
 
   const [selectedBeast, setSelectedBeast] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const handleBeastClick = (beast) => {
     setSelectedBeast(beast);
@@ -17,10 +18,15 @@ function App() {
     setSelectedBeast(null);
   };
 
+  const handleSearchInputChange = (query) => {
+    setSearchQuery(query);
+  };
+
   return (
     <div className="App">
-      <Header />
-      <Main data={data} onBeastUpdate={handleBeastClick} />
+      <Header onSearchInputChange={handleSearchInputChange}/>
+      <Main data={data} onBeastUpdate={handleBeastClick} searchQuery={searchQuery} />
+
       <Footer />
       {selectedBeast && <SelectedBeast beast={selectedBeast} onClose={handleCloseModal} />}
     </div>
