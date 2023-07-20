@@ -14,9 +14,18 @@ const HornedBeast = ({ title, imageURL, description, isFavorite, onFavoriteToggl
     setIsHovered(false);
   };
 
-  const handleFavoriteClick = () => {
+  const handleFavoriteClick = (event) => {
+    event.stopPropagation();
     setFavorites(favorites + 1);
     onFavoriteToggle(title);
+  };
+
+  const handleImageClick = () => {
+    onBeastClick();
+  };
+
+  const handleDescriptionClick = (event) => {
+    event.stopPropagation();
   };
 
   return (
@@ -27,12 +36,12 @@ const HornedBeast = ({ title, imageURL, description, isFavorite, onFavoriteToggl
       onClick={onBeastClick} 
     >
       <h2 className="title">{title}</h2>
-      <img className="image" src={imageURL} alt={title} title={title} />
+      <img className="image" src={imageURL} alt={title} title={title} onClick={handleImageClick} />
       <button className="favorite-button" onClick={handleFavoriteClick}>
         <FontAwesomeIcon icon={faHeart} color="red" />
         {favorites}
       </button>
-      <p className="description">{description}</p>
+      <p className="description" onClick={handleDescriptionClick}>{description}</p>
     </div>
   );
 };

@@ -13,6 +13,10 @@ const Main = ({ data, onBeastUpdate }) => {
     }
   };
 
+  const handleBeastClick = (beast) => {
+    onBeastUpdate(beast);
+  };
+
   return (
     <main className='grid-container'>
     {data.map((beast) => (
@@ -23,7 +27,7 @@ const Main = ({ data, onBeastUpdate }) => {
           description={beast.description}
           isFavorite={favorites.includes(beast.title)}
           onFavoriteToggle={handleFavoriteToggle}
-          onBeastClick={() => onBeastUpdate(beast)}
+          onBeastClick={() => handleBeastClick(beast)}
         />
       </div>
     ))}
