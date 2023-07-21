@@ -80,6 +80,7 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+    padding-top: 20px;
   }
 
 
@@ -88,4 +89,8 @@
     margin: 20px;
     height: 500px;
     padding: 20px;
+  }
+
+  .hovered .image {
+    transform: scale(1.1);
   }

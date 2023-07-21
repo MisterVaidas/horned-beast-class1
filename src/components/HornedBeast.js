@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
-const HornedBeast = ({ title, imageURL, description, isFavorite, onFavoriteToggle, onBeastClick }) => { 
+const HornedBeast = ({ title, imageURL, description, isFavorite, onFavoriteToggle, onBeastClick }) => {
+  
   const [favorites, setFavorites] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -24,20 +25,16 @@ const HornedBeast = ({ title, imageURL, description, isFavorite, onFavoriteToggl
     onBeastClick();
   };
 
-  const handleDescriptionClick = (event) => {
-    event.stopPropagation();
-  };
-
   const handleTitleClick = (event) => {
     event.stopPropagation();
-  }
+  };
 
   return (
     <div
       className={`horned-beast ${isHovered ? 'hovered' : ''}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={onBeastClick}
+      onClick={(event) => event.stopPropagation()}
     >
       <h2 className="title" onClick={handleTitleClick}>{title}</h2>
       <img className="image" src={imageURL} alt={title} title={title} onClick={handleImageClick} />
@@ -45,7 +42,7 @@ const HornedBeast = ({ title, imageURL, description, isFavorite, onFavoriteToggl
         <FontAwesomeIcon icon={faHeart} color="red" />
         {favorites}
       </button>
-      <p className="description" onClick={handleDescriptionClick}>{description}</p>
+      <p className="description" onClick={(event) => event.stopPropagation()}>{description}</p>
     </div>
   );
 };
