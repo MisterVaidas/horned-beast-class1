@@ -9,7 +9,6 @@ Horned Beast World is a React web application that displays a collection of horn
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
