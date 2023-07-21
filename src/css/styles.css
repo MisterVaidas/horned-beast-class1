@@ -63,13 +63,17 @@
   .header {
     margin: auto;
     background-color: darkkhaki;
-    height: 100px;
+    flex-direction: column;
+    height: auto;
+    display: flex;
+    align-items: center;
   }
 
   .header-title {
-    padding: 30px;
+    padding: 20px;
     color: brown;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
   }
 
  
@@ -94,3 +98,17 @@
   .hovered .image {
     transform: scale(1.1);
   }
+
+  .form {
+    padding-bottom: 10px;
+    gap: 10px
+
+  }
+
+  .form select,
+  .form input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}

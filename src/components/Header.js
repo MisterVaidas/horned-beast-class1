@@ -1,7 +1,6 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 
-
 const Header = ({ onSearchInputChange, onFilterChange }) => {
   const handleSearchInputChange = (e) => {
     const searchQuery = e.target.value;
@@ -16,7 +15,7 @@ const Header = ({ onSearchInputChange, onFilterChange }) => {
   return (
     <header className='header'>
       <h1 className='header-title'>Horned Beast World</h1>
-      <Form>
+      <Form className='form'>
         <Form.Control as="select" onChange={handleFilterChange}>
           <option value="">All</option>
           <option value="1">1 Horn</option>
