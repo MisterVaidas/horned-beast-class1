@@ -63,7 +63,7 @@ The application will be accessible at `http://localhost:3000` in your web browse
 
 ## Screenshots
 
-<img src="/public/images/horned-beasts.png" alt="This is a screenshot of the Horned Beast World website" style="width:400px; height:300px;">
+<img src="/public/images/horned-beasts.png" alt="This is a screenshot of the Horned Beast World website" style="width:500px; height:300px;">
 
 ## Contributing
 
