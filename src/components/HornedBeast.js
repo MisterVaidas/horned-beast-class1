@@ -28,14 +28,18 @@ const HornedBeast = ({ title, imageURL, description, isFavorite, onFavoriteToggl
     event.stopPropagation();
   };
 
+  const handleTitleClick = (event) => {
+    event.stopPropagation();
+  }
+
   return (
     <div
       className={`horned-beast ${isHovered ? 'hovered' : ''}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={onBeastClick} 
+      onClick={onBeastClick}
     >
-      <h2 className="title">{title}</h2>
+      <h2 className="title" onClick={handleTitleClick}>{title}</h2>
       <img className="image" src={imageURL} alt={title} title={title} onClick={handleImageClick} />
       <button className="favorite-button" onClick={handleFavoriteClick}>
         <FontAwesomeIcon icon={faHeart} color="red" />
